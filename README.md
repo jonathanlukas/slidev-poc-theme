@@ -1,4 +1,4 @@
-# @slidev/theme-default
+# slidev-theme-camunda-first
 
 Test Camunda training theme for [Slidev](https://github.com/slidevjs/slidev).
 

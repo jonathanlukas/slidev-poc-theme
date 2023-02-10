@@ -1,0 +1,20 @@
+<script setup lang="ts">
+import { computed } from 'vue'
+import { handleBackground } from '../layoutHelper'
+
+const props = defineProps({
+    background: {
+        default: './theme/images/target-right.png',
+    },
+})
+
+const style = computed(() => handleBackground(props.background, false))
+</script>
+
+<template>
+    <div class="slidev-layout cover" :style="style">
+        <div class="absolute top-10 left-5 text-black">
+            <slot />
+        </div>
+    </div>
+</template>

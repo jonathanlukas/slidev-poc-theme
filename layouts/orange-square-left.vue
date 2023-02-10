@@ -4,7 +4,7 @@ import { handleBackground } from '../layoutHelper'
 
 const props = defineProps({
     background: {
-        default: '../public/images/left-orange-square.png',
+        default: '/images/left-orange-square.png',
     },
 })
 

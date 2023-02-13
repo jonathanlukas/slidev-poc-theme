@@ -44,18 +44,14 @@
 }
 
 
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
 
-
-
-/*
-.slidev-layout.quote {
-  @apply grid h-full;
-
-  h1+p {
-    @apply mt-2;
+  h1 {
+    @apply text-6xl leading-20;
   }
 }
-*/
 
 
 .slidev-layout.orange-square-left {

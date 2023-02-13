@@ -19,9 +19,9 @@ const left = computed(() => handleBackground(props.imageLeft, true))
     <div class="grid grid-cols-3 wfull hfull gap-x-7">
         <div class="ml-14 my-14" :style="left"></div>
         <div class="ml-14 my-14 span-2 bg-white" :class="props.class">
-            
-                <slot />
-            
-        </div>      
+
+            <slot />
+
+        </div>
     </div>
 </template>

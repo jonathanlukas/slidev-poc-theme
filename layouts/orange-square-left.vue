@@ -1,7 +1,7 @@
 
 <template>
     <div class="slidev-layout cover orange-square-left">
-        <div class="absolute top-10 right-19 text-black">
+        <div class="orange-square-left-div">
             <slot />
         </div>
     </div>

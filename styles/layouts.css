@@ -55,7 +55,7 @@
 
 
 .slidev-layout.orange-square-left {
-  background-image: url('../backgrounds/left-orange-square.png');
+  background-image: url('./backgrounds/left-orange-square.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -73,7 +73,7 @@
 }
 
 .slidev-layout.target-right {
-  background-image: url('../backgrounds/target-right.png');
+  background-image: url('./backgrounds/target-right.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -117,7 +117,7 @@ th {
 }
 
 .slidev-layout.white-orange {
-  background-image: url('../backgrounds/Camunda_Desktop-Wallpaper_White-Orange-Sidebar.png');
+  background-image: url('./backgrounds/Camunda_Desktop-Wallpaper_White-Orange-Sidebar.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -133,4 +133,64 @@ th {
 
   }
 
+}
+
+.slidev-layout.black-layout {
+  background-image: url('./backgrounds/black.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.black-layout-div {
+  @apply absolute top-10 left-15 text-white text-2xl;
+  width: 100%;
+
+  h1 {
+    @apply text-white text-3xl;
+  }
+
+}
+
+.blackTableBorderTextCenter {
+
+  table,
+  tr,
+  th,
+  td {
+    border-color: white;
+    line-height: 1;
+    border-style: solid;
+    text-align: center;
+    width: 80%
+  }
+
+  ,
+  td,
+  th {
+    width: 30%;
+    font-size: 1rem;
+  }
+}
+
+.whiteTableBorderTextCenter {
+
+  table,
+  tr,
+  th,
+  td {
+    border-color: black;
+    line-height: 1;
+    border-style: solid;
+    text-align: center;
+    width: 80%
+  }
+
+  ,
+  td,
+  th {
+    width: 30%;
+    font-size: 1rem;
+  }
 }
